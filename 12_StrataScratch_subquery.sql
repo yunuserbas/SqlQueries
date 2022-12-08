@@ -27,7 +27,7 @@ FROM (
   WHERE action IN ('page_load', 'page_exit')
   GROUP BY user_id, DATE(timestamp)
 ) AS sessions
-GROUP BY user_id
+GROUP BY user_id;
 
 
 

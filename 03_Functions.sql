@@ -1,3 +1,4 @@
+
 # Aggretion Functions
 
 SELECT count(*) as nb_school FROM school;
@@ -31,6 +32,8 @@ FROM team t
 INNER JOIN player ON team_id=t.id 
 GROUP BY team_id HAVING nb_player >= 14
 ORDER BY t.name;
+
+
 
 -- QUESTION 3
 # Gryffondor’s trainer is superstitious, his favorite day is Monday. Return a list of players in his team who were enrolled on a Monday (they want them to play first) and sort the results by enrollment date.

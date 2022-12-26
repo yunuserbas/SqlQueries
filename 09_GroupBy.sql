@@ -1,4 +1,5 @@
 
+
 # FIRST QUESTION
 
 //
@@ -31,6 +32,7 @@ JOIN companies USING (id);
 # SECOND QUESTION
 
 //
+
 
 For this challenge you need to create a simple GROUP BY statement, you want to group all the people by their age and count the people who have the same age.
 

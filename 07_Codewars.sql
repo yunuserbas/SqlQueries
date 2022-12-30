@@ -1,6 +1,5 @@
 
 
-
 -- 1 you need to create a simple SELECT statement that will return all columns from the people table WHERE their age is over 50 --
 
 
@@ -32,6 +31,8 @@ SELECT min(ages) as age_min, max(ages) as age_max FROM people;
 
 
 -- 6 create a simple SELECT query to display student information of all ACTIVE students --
+
+
 
 
 SELECT * FROM students WHERE IsActive = '1';

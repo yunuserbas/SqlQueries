@@ -1,3 +1,5 @@
+
+
 DELETE FROM wizard;
 
 CREATE TABLE `player` (
@@ -30,6 +32,9 @@ INSERT INTO `team` VALUES (1,'Gryffindor'),(2,'Ravenclaw'),(3,'Slytherin'),(4,'H
 UNLOCK TABLES;
 
 -- Dumping data for table `wizard`
+
+
+
 
 LOCK TABLES `wizard` WRITE;
 /*!40000 ALTER TABLE `wizard` DISABLE KEYS */;

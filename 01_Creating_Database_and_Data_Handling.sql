@@ -1,3 +1,6 @@
+
+
+
 CREATE DATABASE wild_db_quest;
 CREATE TABLE `wild_db_quest`.`wizard` (
 `id` INT NOT NULL AUTO_INCREMENT,
@@ -117,3 +120,5 @@ WHERE id = 11;
 delete from `school` where `name` like '%Magic%'; 
 
 select * from school;
+
+

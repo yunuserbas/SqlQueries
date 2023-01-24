@@ -1,3 +1,5 @@
+
+
 ## Use subqueries to answer questions 1 to 3
 -- Q1
 # Display the firstname and lastname of wizards who registered as players between the years 1995 and 1998.
@@ -30,6 +32,7 @@ and `role` = 'chaser');
 
 -- Q4
 # Display the number of players by role and by team
+
 
 CREATE VIEW nb_player AS (
 SELECT name, role, count(*) as count_role

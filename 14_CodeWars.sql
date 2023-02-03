@@ -17,3 +17,27 @@ GROUP BY RACE
 ORDER BY COUNT DESC;
 
 
+
+-- Question: Return a table with a single column named Greeting with the phrase 'hello world!'
+
+
+-- Solution
+
+
+CREATE TABLE greetings (Greeting VARCHAR(12));
+
+INSERT INTO greetings (Greeting)
+VALUES ('hello world!');
+
+
+SELECT Greeting FROM greetings
+WHERE Greeting = 'hello world!';
+
+
+
+
+
+
+
+
+

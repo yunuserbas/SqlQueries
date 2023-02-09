@@ -49,7 +49,9 @@ SELECT prefix || ' ' || first || ' ' || last || ' ' || suffix AS title
 FROM names;
 
 
+Comment:
 
+-- This query selects the columns prefix, first, last, and suffix from the names table and concatenates them using the || operator, with a space between each column. The AS title clause renames the result column to title
 
 
 

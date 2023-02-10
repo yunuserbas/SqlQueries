@@ -1,4 +1,5 @@
 
+
 -- QUESTION 1 ;
 -- You have access to a table of monsters as follows:
 -- monsters schema
@@ -52,6 +53,7 @@ FROM names;
 Comment:
 
 -- This query selects the columns prefix, first, last, and suffix from the names table and concatenates them using the || operator, with a space between each column. The AS title clause renames the result column to title
+
 
 
 

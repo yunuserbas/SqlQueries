@@ -17,7 +17,7 @@
 
 SELECT
   cbrt(number1) AS cuberoot,
-  log(number2) AS logarithm
+  ln(number2) AS logarithm
 FROM
   decimals;
 

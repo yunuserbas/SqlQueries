@@ -1,4 +1,4 @@
-Avec les tables mysql suivantes, écrivez la requête pour sortir la liste des emails des clients qui ont un centre d'intérêt = "VTT" et
+""" Avec les tables mysql suivantes, écrivez la requête pour sortir la liste des emails des clients qui ont un centre d'intérêt = "VTT" et
 qui n'ont pas encore acheté de forfait pour l'été 2023 :
 
 Tables:
@@ -22,7 +22,7 @@ id_skipass
 type_forfait
 date_achat
 debut_validite
-fin_validite
+fin_validite """
 
 
 
